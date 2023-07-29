@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'DM Sans';
+}
+
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .homePage {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .homePage header {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 100px;
+}
+
+.wrap .homePage header .headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .homePage header .headerContainer .logo {
+  font-family: 'Ultra';
+  font-size: 40px;
+  margin-right: 80px;
+}
+
+.wrap .homePage header .headerContainer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .homePage header .headerContainer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.wrap .homePage header .headerContainer nav ul li {
+  list-style: none;
+}
+
+.wrap .homePage header .headerContainer nav ul li a {
+  text-decoration: none;
+  margin-right: 60px;
+  color: #000;
+}
+
+.wrap .homePage button {
+  background-color: #000;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  color: #fff;
+}
+
+.wrap .homeMain {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .homeMain .mainLeft {
+  width: 50%;
+  height: 100%;
+  background-color: #E7D4BE;
+  
+  
+}
+
+.wrap .homeMain .mainRight {
+  width: 50%;
+  height: 100%;
+  background-image: url(./img/Background.png);
+  background-size: cover;
+}
+
+.wrap .homeMain h3 {
+  font-family: 'Oswald';
+  position: relative;
+  right: 110px;
+  bottom: 30px;
+  
+}
+
+ .wrap .homeMain h1 {
+  font-family: 'Ultra';
+  font-size: 50px;
+ 
+}
+
+.info {
+
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.wrap .homeMain p {
+  font-family: 'DM Sans';
+  position: relative;
+  left: 15px;
+  top: 20px;
+  
+}
+.picture1 {
+  position: relative;
+  bottom: 370px;
+  right: 245px;
+}
+.picture2 {
+ position: relative;
+ left: 200px;
+ bottom: 580px;
+ 
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
